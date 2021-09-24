@@ -1,5 +1,6 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
+
 using System;
 
 /// <summary>
@@ -8,6 +9,6 @@ using System;
 [Serializable]
 public class PropertyMessage
 {
-    public string TurbineID { get; set; }
-    public bool Alert { get; set; }
+	public string TurbineId { get; set; }
+	public bool Alert { get; set; }
 }
